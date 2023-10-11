@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour
     //this methos/line of code on runs when the restart button is clicked
     public void RestartGame()
     {
+        ResumeGame();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
